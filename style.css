@@ -1,0 +1,144 @@
+
+body{
+    margin: 22px 15px;
+    background-color: rgb(52, 50, 50);
+}
+
+button{
+    padding: 20px;
+    font-size: 25px;
+    
+    border: none;
+    border-radius: 5px;
+
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(80, 80, 80);;
+    transition: 0.2s;
+}
+
+button:active{
+    background-color: rgb(66, 66, 66);
+}
+
+#calculator{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+
+#screen{
+    grid-column: -1 / 1;
+    height: 20vh;
+    margin-bottom: 10px;
+    padding: 30px;
+    font-size: 50px;
+    border: none;
+    background-color:rgb(52, 50, 50) ;
+    text-align:right;
+    color: white; 
+
+}
+
+.contents{
+    height: 63vh;
+}
+
+#functions{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    
+}
+
+#numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+
+}
+
+#enumerate{
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: span 4;
+}
+
+
+#operations{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+}
+
+.action{
+   grid-column: span 2 ;
+   background-color: gold;
+   color: black;
+}
+
+.action:hover{
+    background-color: rgb(185, 158, 5);
+    transition: 0.2s;
+}
+
+.action:active{
+    background-color: rgb(153, 131, 10);
+}
+
+
+.add{
+    grid-row : span 2;
+    color:white;
+    font-size: 30px;
+    background-color: rgb(60, 66, 70);
+}
+
+.add:hover{
+    background-color: rgb(63, 70, 78) ;
+    transition: 0.2s;
+}
+
+.add:active{
+    background-color: rgb(50, 55, 65);
+    transition: 0.2s;
+} 
+
+.multiply{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgb(60, 66, 70);
+}
+
+.multiply:hover{
+    background-color: rgb(63, 70, 78);
+    transition: 0.2s;
+}
+
+.multiply:active{
+    background-color: rgb(50, 55, 65);
+    transition: 0.2s;
+}
+
+#equal{
+    grid-column: span 4;
+    background-color: skyblue;
+    color: black;
+}
+
+#equal:hover{
+    background-color: rgb(62, 168, 210) ;
+    transition: 0.2s;
+}
+
+#equal:active{
+    background-color: rgb(41, 118, 149) ;
+}
+
+
+
